@@ -1,6 +1,0 @@
-# Check whether the given numbers are even or odd
-a = int(input("Enter a number:"))
-if ( a % 2 == 0):
-    print(a," is even Number")
-else:
-    print(a," is odd Number ")
