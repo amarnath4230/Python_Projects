@@ -1,10 +1,10 @@
 
-# Check whether the given numbers are even or odd
+# Write a python program to check whether given number is even or odd ?
 
-a = int(input("Enter a number:"))
-if ( a % 2 == 0):
-    print(a," is even Number")
+num_1 = int(input("Enter a number:"))
+
+if num_1 % 2 == 0:
+    print(num_1,"is Even Number")
 else:
-    print(a," is odd Number ")
-
-    
+    print(num_1," is Odd Number")
+        
