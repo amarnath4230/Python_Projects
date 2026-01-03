@@ -1,24 +1,20 @@
 
-# Use will Input 3 ages you have to find the oldest one :-
+# Write a python program in which User will Input 3 ages you have to find the oldest one ?
 
-age_1 = int(input("Enter your age: ")) # taking age 1 from user
-age_2 = int(input("Enter your age: ")) # taking age 2 from user
-age_3 = int(input("Enter your age: ")) # taking age 3 from user
+age_1 = int(input("Enter Your first age: "))
+age_2 = int(input("Enter Your second age: "))
+age_3 = int(input("Enter Your  third age: "))
 
-# First Way Using Sort() function :------------------------------------
-l = [age_1,age_2,age_3]
-l.sort(reverse = True)
-print(l[0])
+max_age = age_1
+if age_2 > max_age:
+    max_age = age_2
+if age_3 > max_age:
+    max_age = age_3
+print(max_age,"is maximum age")
 
 
 
-# Second Way Using if statement:----------------------------------------------
-max = age_1 
-if max < age_2:
-    max = age_2
-if max < age_3:
-    max = age_3
-print(max)
+
 
 
 
